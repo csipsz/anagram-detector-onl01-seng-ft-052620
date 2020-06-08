@@ -11,6 +11,7 @@ class Anagram
     @word.split("")
     array.collect do |item| 
       if word.split("").sort == item.split("").sort
+      end 
     end 
   end 
   
