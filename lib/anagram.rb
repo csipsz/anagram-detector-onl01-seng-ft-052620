@@ -11,19 +11,8 @@ class Anagram
     @word.split("")
     array.collect do |item| 
       if word.split("").sort == item.split("").sort
-    
+    end 
   end 
   
   
 end 
-
-
-corn = Anagram.new('c, o, r, n')
-
-
-
-corn.match([    "d", "o", g,     c   a  t,      c h ocolate])
-
-lap pal 
-
-["l", 'a', 'p']  !=  ['p' 'a' 'l']
