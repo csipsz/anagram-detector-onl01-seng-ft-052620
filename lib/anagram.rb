@@ -8,6 +8,8 @@ class Anagram
   end 
   
   def match(array)
+    array.collect do |item| 
+      item.split("")
     @word.split("")
   end 
   
@@ -17,10 +19,6 @@ end
 
 corn = Anagram.new('c, o, r, n')
 
-Tom Rowle Denem == I am lord Voldemort 
-
-corn.match([dog, cat, chocolate])
 
 
-
-lap = pal 
+corn.match([    "d", "o", g,     c   a  t,      c h ocolate])
