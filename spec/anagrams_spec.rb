@@ -22,3 +22,7 @@ describe 'Anagram' do
     expect(allergy).to eq(['gallery', 'regally', 'largely'])
   end
 end
+
+
+
+corn = Anagram.new('corn')
