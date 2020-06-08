@@ -24,5 +24,3 @@ describe 'Anagram' do
 end
 
 
-
-corn = Anagram.new('corn')
