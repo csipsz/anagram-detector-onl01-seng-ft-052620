@@ -8,9 +8,10 @@ class Anagram
   end 
   
   def match(array)
+    
     array.collect do |item| 
       item.split("")
-    @word.split("")
+    
   end 
   
   
