@@ -39,7 +39,4 @@ class Anagram
   
 end 
 
-word = Anagram.new("diaper")
-
-
 
