@@ -8,9 +8,9 @@ class Anagram
   end 
   
   def match(array)
-    
+    @word.split("")
     array.collect do |item| 
-      item.split("")
+      if word.split("") == item.split("")
     
   end 
   
@@ -23,3 +23,5 @@ corn = Anagram.new('c, o, r, n')
 
 
 corn.match([    "d", "o", g,     c   a  t,      c h ocolate])
+
+lap pal 
