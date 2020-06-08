@@ -32,7 +32,7 @@ class Anagram
     array.collect do |item| 
       #binding.pry
       word.split("").sort == item.split("").sort
-      end 
+      
     end 
   end 
   
