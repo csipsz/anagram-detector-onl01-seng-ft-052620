@@ -17,4 +17,4 @@ end
 corn = Anagram.new('corn')
 
 
-corn.match([])
+corn.match([dog, cat, chocolate])
