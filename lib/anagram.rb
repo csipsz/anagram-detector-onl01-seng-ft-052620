@@ -15,3 +15,6 @@ end
 
 
 corn = Anagram.new('corn')
+
+
+corn.match([])
