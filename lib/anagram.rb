@@ -31,8 +31,9 @@ class Anagram
     @word.split("")
     array.collect do |item| 
       #binding.pry
-      word.split("").sort == item.split("").sort
-      
+      if word.split("").sort == item.split("").sort
+        item
+     end
     end 
   end 
   
