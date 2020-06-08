@@ -14,3 +14,4 @@ class Anagram
 end 
 
 
+corn = Anagram.new('corn')
