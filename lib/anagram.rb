@@ -30,8 +30,8 @@ class Anagram
   def match(array)
     @word.split("")
     array.collect do |item| 
-      binding.pry
-      if word.split("").sort == item.split("").sort
+      #binding.pry
+      word.split("").sort == item.split("").sort
       end 
     end 
   end 
